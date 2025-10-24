@@ -5,7 +5,10 @@ public class Chapter3 : MonoBehaviour
 {
     // 클래스 멤버 변수(=프로퍼티)
     // - 클래스 하위에 있는 모든 함수들이 접근 가능하다.
-    /** const **/ int age = 71;
+    /** const **/
+    public int Age = 71;
+    // - 멤버 변수를 유니티 에디터에서 수정할 수 있게끔 노출하는 키워드
+
 
     // const: 상수 키워드
     // ㄴ 변수를 선언할 때만 초기값 설정이 가능하고, 그 이후에는 갑 변경 불가
@@ -20,8 +23,8 @@ public class Chapter3 : MonoBehaviour
         int health = 100;
         Debug.Log(health);
 
-        age = 81;
-        Debug.Log(age);
+        Age = 81;
+        Debug.Log(Age);
     }
 
     void Update()
