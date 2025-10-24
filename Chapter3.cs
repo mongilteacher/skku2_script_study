@@ -9,6 +9,10 @@ public class Chapter3 : MonoBehaviour
     public int Age = 71;
     // - public: 멤버 변수를 유니티 에디터에서 수정할 수 있게끔 노출하는 키워드
 
+    // 멤버 변수는 접근 지정자가 있다. (접근 지정자를 빼먹으면 private 생략)
+    // - public  : 외부에서 접근할 수 있다. (유니티 에디터 포함)
+    // - private : 이 클래스 안에서만 접근할 수 있다.
+
 
     // const: 상수 키워드
     // ㄴ 변수를 선언할 때만 초기값 설정이 가능하고, 그 이후에는 갑 변경 불가
